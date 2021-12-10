@@ -1,0 +1,19 @@
+public class asalSayi {
+    public static void main(String[] args) {
+        int sayac=0;
+        int sayi=0;
+        System.out.println("Asal Sayılar");
+        for (int i=2;i<=100;i++){
+           int kontrol=0;
+           for (int b=2;b<i;b++){
+               if (i%b==0){
+                   kontrol=1;
+                   break;
+               }
+
+           }
+           if (kontrol==0){
+               System.out.println(i+"\s");
+        sayac++;
+    }}
+}}
